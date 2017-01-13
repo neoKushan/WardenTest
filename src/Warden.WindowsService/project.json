@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "description": "Test Warden Windows Service.",
+  "authors": [ "Steve Donaghy" ],
+  "packOptions": {
+    "tags": [ "Warden" ],
+    "projectUrl": "https://github.com/neoKushan/WardenTest"
+  },
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "System.Linq": "4.0.0",
+    "TopShelf": "4.0.2",
+    "Warden": "1.3.1",
+    "Warden.Integrations.Cachet": "1.3.1",
+    "Warden.Integrations.HttpApi": "1.3.1",
+    "Warden.Integrations.MsSql": "1.3.1",
+    "Warden.Integrations.SendGrid": "1.3.1",
+    "Warden.Integrations.Slack": "1.3.1",
+    "Warden.Integrations.Twilio": "1.3.1",
+    "Warden.Watchers.Disk": "1.3.1",
+    "Warden.Watchers.MongoDb": "1.3.1",
+    "Warden.Watchers.MsSql": "1.3.1",
+    "Warden.Watchers.Performance": "1.3.1",
+    "Warden.Watchers.Server": "1.3.1",
+    "Warden.Watchers.Process": "1.3.1",
+    "Warden.Watchers.Redis": "1.3.1",
+    "Warden.Watchers.Web": "1.3.1"
+  },
+  "commands": {
+    "Warden.WindowsService": "Warden.WindowsService"
+  },
+  "frameworks": {
+    "net461": {}
+  }
+}
